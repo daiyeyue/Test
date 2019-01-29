@@ -61,3 +61,13 @@ else:
 for i in range(1,11):
     pass
     print("我爱芳芳")
+
+
+Money = 100000;
+Year = 1;
+while Money < 100000 * 2:
+    Money = Money * 1.067;
+    print("第{0}年拿了{1}块钱".format(Year,Money))
+    Year = Year + 1;
+else:
+    print("祝贺拿到{0}钱".format(Money))
